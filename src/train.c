@@ -2,9 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 #include "nn_definition.h"
-
 
 char* synopsis = "./train [-e epochs] [-r ReLU | -s sigmoid] [-o output path] DATASET_PATH";
 
