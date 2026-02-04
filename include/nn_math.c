@@ -10,3 +10,11 @@ float dot_product(float* v1, float* v2, int n){
 
     return result;
 }
+
+float sigmoid(float x){
+    return 1/(1 + exp(-x));
+}
+
+float ReLU(float x){
+    return fmax(0, x);
+}
