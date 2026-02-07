@@ -4,5 +4,7 @@
 #include <math.h>
 
 void assert_equals_float(float expected, float given, int decimal_places);
+void assert_true(int value);
+
 
 #endif

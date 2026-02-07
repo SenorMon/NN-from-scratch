@@ -18,3 +18,11 @@ float sigmoid(float x){
 float ReLU(float x){
     return fmax(0, x);
 }
+
+/**
+    This function calculates a random float between
+    -1 and 1 used for initializing the weights of the matrices.
+*/
+float random_weight(){
+    return (1 - (-1)) * ((((float) rand()) / (float) RAND_MAX)) + (-1);
+}
